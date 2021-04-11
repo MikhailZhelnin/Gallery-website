@@ -1,0 +1,12 @@
+.gallery__header {
+  padding: 30px 10px;
+}
+
+.gallery__header-wrapper {
+  text-align: center;
+}
+
+.gallery__header-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
