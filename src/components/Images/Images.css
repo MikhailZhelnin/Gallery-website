@@ -4,7 +4,6 @@
 }
 
 .gallery__image-img {
-  width: 33.33333%;
   height: 340px;
   overflow: hidden;
 }
@@ -15,9 +14,4 @@
   object-fit: cover;
   object-position: center;
   cursor: pointer;
-  transition: transform 0.3s linear;
-}
-
-.gallery__image-img > img:hover {
-  transform: scale(1.1);
 }

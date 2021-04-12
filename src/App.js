@@ -8,11 +8,13 @@ import './App.css';
 
 function App() {
   const [modalImage, setModalImage] = useState(null);
+  const [selectedWidth, setSelectedWidth] = useState('33.33333%');
+  const [selectedHeight, setSelectedHeight] = useState('340px');
 
   return (
     <div className="gallery">
-      <Header />
-      <Images setModalImage={setModalImage} />
+      <Header setSelectedWidth={setSelectedWidth} />
+      <Images setModalImage={setModalImage} selectedWidth={selectedWidth} />
       {modalImage && <Modal modalImage={modalImage} setModalImage={setModalImage} />}
     </div>
   );

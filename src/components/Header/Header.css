@@ -1,12 +1,21 @@
 .gallery__header {
-  padding: 30px 10px;
+  padding: 30px 20px;
 }
 
 .gallery__header-wrapper {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .gallery__header-title {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
+}
+
+.gallery__header-select {
+  padding: 5px;
+}
+
+.gallery__header-select > option {
 }
