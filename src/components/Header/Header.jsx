@@ -20,9 +20,9 @@ const OPTIONS_VALUE = [
   },
 ];
 
-const Header = ({ setSelectedWidth }) => {
+const Header = ({ setSelectWidth }) => {
   const handleSelect = (e) => {
-    setSelectedWidth(e.target.value);
+    setSelectWidth(e.target.value);
   };
 
   return (

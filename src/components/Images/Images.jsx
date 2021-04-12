@@ -5,7 +5,7 @@ import './Images.css';
 
 import data from '../../data';
 
-const Images = ({ setModalImage, selectedWidth }) => {
+const Images = ({ setModalImage, selectWidth }) => {
   return (
     <div className="gallery__images">
       {data.map((image) => (
@@ -13,7 +13,7 @@ const Images = ({ setModalImage, selectedWidth }) => {
           key={image.id}
           className="gallery__image-img"
           onClick={() => setModalImage(image.img)}
-          style={{ width: selectedWidth }}>
+          style={{ width: selectWidth }}>
           <motion.img src={image.img} alt="img" whileHover={{ scale: 1.1 }} />
         </div>
       ))}
