@@ -3,12 +3,10 @@ import { motion } from 'framer-motion';
 
 import './Images.css';
 
-import data from '../../data';
-
-const Images = ({ setModalImage, selectWidth }) => {
+const Images = ({ setModalImage, selectWidth, filteredImage }) => {
   return (
     <div className="gallery__images">
-      {data.map((image) => (
+      {filteredImage.map((image) => (
         <div
           key={image.id}
           className="gallery__image-img"
