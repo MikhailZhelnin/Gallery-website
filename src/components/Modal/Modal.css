@@ -13,10 +13,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  width: 60%;
+  width: 80%;
   height: 80%;
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
   object-fit: cover;
   object-position: center;
+}
+
+@media (max-width: 900px) {
+  .gallery__modal > img {
+    height: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .gallery__modal > img {
+    width: 90%;
+    height: 50%;
+  }
 }

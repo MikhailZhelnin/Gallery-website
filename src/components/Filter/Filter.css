@@ -19,3 +19,21 @@
   color: #fff;
   background-color: rgb(63, 63, 63);
 }
+
+@media (max-width: 550px) {
+  .gallery__filter {
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  .gallery__filter-btn {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery__filter-btn {
+    font-size: 13px;
+  }
+}

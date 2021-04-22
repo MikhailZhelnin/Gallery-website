@@ -19,3 +19,29 @@
 
 .gallery__header-select > option {
 }
+
+@media (max-width: 1023px) {
+  .gallery__header-wrapper {
+    justify-content: center;
+  }
+
+  .gallery__header-select {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .gallery__header-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery__header {
+    padding: 20px;
+  }
+
+  .gallery__header-title {
+    font-size: 25px;
+  }
+}
